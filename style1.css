@@ -1,0 +1,94 @@
+header {
+    background-color: rgb(252, 253, 250);
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center; /* Align items vertically center */
+    flex-wrap: wrap; /* Allow wrapping */
+}
+
+.logo {
+    display: flex;
+    align-items: center; /* Align logo vertically center */
+}
+
+.logo img {
+    width: auto;
+    height: 40px; /* Adjust height as needed */
+}
+
+.nav {
+    display: flex;
+    margin: 0; /* Added margin reset */
+    padding: 0; /* Added padding reset */
+    list-style: none; /* Remove list line */
+    margin-left: auto; /* Move the navigation to the right */
+}
+
+.nav a {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: auto;
+    color: grey;
+    text-decoration: none; /* Remove underline */
+    margin: 0 10px; /* Add horizontal margin for spacing */
+    padding: 0;
+}
+
+.title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.program-delivery {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 100%;
+    padding: 100px;
+}
+
+.box {
+    display: flex;
+    flex-wrap: wrap; /* Allow boxes to wrap to the next line */
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+
+.box1 {
+    flex: 1 1 calc(25% - 20px); /* Flexible basis with spacing adjustment */
+    max-width: calc(25% - 20px); /* Ensure max-width matches flex-basis */
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid rgb(191, 35, 35);
+    border-radius: 10px;
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center-align the content */
+}
+
+.box1 img {
+    width: 50px;
+    height: auto;
+}
+
+h3 {
+    text-align: center;
+    color: rgb(191, 35, 35);
+    margin: 0;
+    padding: 0;
+}
+
+.box1 ul {
+    font-size: 13px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(191, 35, 35);
+    padding: 10px;
+    margin: 0;
+    list-style: none; /* Remove list style */
+    width: 100%; /* Ensure ul takes full width of the box */
+}
